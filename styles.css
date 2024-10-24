@@ -94,6 +94,7 @@ body {
   max-width: 1200px;
   margin-left: 20px;
   margin-right: 20px;
+  
 }
 /* Sidebar */
 .sidebar {
@@ -124,6 +125,7 @@ body {
   border-top-right-radius: 10px;
   background-color: white;
   padding-bottom: 10px;
+  box-shadow:rgba(140, 140, 140, 0.2) 0px 0px 0px 1px;
 }
 
 .sidebar__topAvatar {
@@ -173,6 +175,7 @@ body {
   background-color: white;
   border-radius: 10px;
   margin-top: 10px;
+  box-shadow:rgba(140, 140, 140, 0.2) 0px 0px 0px 1px;
 }
 
 .sidebar__recentItem {
@@ -206,7 +209,7 @@ body {
 .feed {
   flex: 0.6;
   margin: 0 20px;
-  min-width: 505px;
+  width: 575px;
 }
 
 .feed__inputContainer {
@@ -215,6 +218,7 @@ body {
   padding-bottom: 20px;
   border-radius: 10px;
   margin-bottom: 20px;
+  box-shadow:rgba(140, 140, 140, 0.2) 0px 0px 0px 1px;
 }
 .feed-inp{
   display: flex;
@@ -222,7 +226,7 @@ body {
   gap: 10px;
 }
 .feed-inp input{
-  width: 400px;
+  width: 467px;
 }
 .feed__input {
   border: 1px solid lightgray;
@@ -253,6 +257,7 @@ body {
 .feed__inputOptions {
   display: flex;
   justify-content: space-evenly;
+  
 }
 
 .inputOption {
@@ -279,17 +284,23 @@ body {
   padding: 15px;
   margin-bottom: 10px;
   border-radius: 10px;
+  box-shadow:rgba(140, 140, 140, 0.2) 0px 0px 0px 1px;
 }
 
 .post__header {
   display: flex;
   margin-bottom: 10px;
 }
-
+/* .post__header img{
+  margin-top: px;
+} */
 .post__info {
   margin-left: 10px;
+  /*padding-top: 5px; */
 }
-
+.BCCI{
+  margin-top: 5px;
+}
 .post__info > p {
   font-size: 12px;
   color: gray;
@@ -310,6 +321,7 @@ body {
   height: fit-content;
   padding-bottom: 10px;
   min-width: 300px;
+  box-shadow:rgba(140, 140, 140, 0.2) 0px 0px 0px 1px;
 }
 
 .widgets__header {
